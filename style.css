@@ -1,0 +1,23 @@
+#main {
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 2px;
+}
+
+.pink {
+    color:pink;
+}
+
+@media (min-width: 600px) {
+    #container {
+        display: flex;
+    }
+    
+    #main {
+        width: 70%;
+    }
+    
+    #sidebar {
+        width: 30%;
+    }
+}
